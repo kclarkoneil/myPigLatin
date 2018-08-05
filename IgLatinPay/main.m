@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "InputHandler.h"
+#import "NSString+PigLatinization.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // insert code here..
+        
+        InputHandler *test = [[InputHandler alloc] init];
+        NSString *testy = [test getInput];
+        NSLog(@"Hello, World!%@", [testy stringByPigLatinization]);
     }
     return 0;
 }

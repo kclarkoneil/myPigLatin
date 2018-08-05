@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A142F54621166987004E63AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F54521166987004E63AF /* main.m */; };
+		A142F54D211669FE004E63AF /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F54C211669FE004E63AF /* InputHandler.m */; };
+		A142F5572116719E004E63AF /* NSString+PigLatinization.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F5562116719E004E63AF /* NSString+PigLatinization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A142F54221166987004E63AF /* IgLatinPay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IgLatinPay; sourceTree = BUILT_PRODUCTS_DIR; };
 		A142F54521166987004E63AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A142F54C211669FE004E63AF /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		A142F54E21166A08004E63AF /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		A142F5552116719E004E63AF /* NSString+PigLatinization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PigLatinization.h"; sourceTree = "<group>"; };
+		A142F5562116719E004E63AF /* NSString+PigLatinization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PigLatinization.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		A142F54421166987004E63AF /* IgLatinPay */ = {
 			isa = PBXGroup;
 			children = (
+				A142F54E21166A08004E63AF /* InputHandler.h */,
+				A142F5552116719E004E63AF /* NSString+PigLatinization.h */,
+				A142F5562116719E004E63AF /* NSString+PigLatinization.m */,
+				A142F54C211669FE004E63AF /* InputHandler.m */,
 				A142F54521166987004E63AF /* main.m */,
 			);
 			path = IgLatinPay;
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A142F5572116719E004E63AF /* NSString+PigLatinization.m in Sources */,
 				A142F54621166987004E63AF /* main.m in Sources */,
+				A142F54D211669FE004E63AF /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
